@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fortune Teller</title>
+</head>
+<body>
+  <div class="container">
+    <form class="fortuneForm" action="index.html" method="post">
+      <h3>Fill out this magic survey to see your fortune!</h3>
+      <div class="form-group">
+        <p>Background Questions</p>
+        <input type="checkbox" name="background" value="full-moon">Born on a full moon. <br>
+        <input type="checkbox" name="background" value="darkness">Born in darkness. <br>
+        <input type="checkbox" name="background" value="light">Born in light. <br>
+        <input type="checkbox" name="background" value="own-cat">Own a cat. <br>
+        <input type="checkbox" name="background" value="own-cauldron">Own a cauldron. <br>
+        <input type="checkbox" name="background" value="own-broom">Own a straw broom. <br>
+        <input type="checkbox" name="background" value="black-clothing">Do you wear a lot of black clothing? <br>
+      </div>
+      <div class="form-grpup">
+        <h5>Recent Happenings</h5>
+        <p>In the last 12 months, have you...</p>
+        <input type="checkbox" name="recentHappenings" value="broken-mirror">Broken a mirror? <br>
+        <input type="checkbox" name="recentHappenings" value="black-cat">Crossed paths with a black cat? <br>
+        <input type="checkbox" name="recentHappenings" value="crack">Stepped on any cracks? <br>
+        <input type="checkbox" name="recentHappenings" value="howl-moon">Howled at the moon? <br>
+        <input type="checkbox" name="recentHappenings" value="sacrificed-animal">Sacrificed any animals in your closet? <br>
+      </div>
+      <div class="form-group">
+        <h5>Family History</h5>
+        <input type="checkbox" name="familyHistory" value="green-skin">Relatives with green skin. <br>
+        <input type="checkbox" name="familyHistory" value="burnings-drownings">Relatives that have survived burnings or drownings. <br>
+        <input type="checkbox" name="familyHistory" value="light-water-sensitivity">Hereditary sensitivity to light or water. <br>
+        <input type="checkbox" name="familyHistory" value="pointy-hats">Family history of women wearing pointy hats. <br>
+      </div>
+      <button type="submit" name="button">Submit!</button>
+    </form>
+    <div class="lucky">
+      You are one lucky sob! Go buy a lotto ticket asap!
+    </div>
+    <div class="unlucky">
+      You are unlucky. Stay inside and don't waste money on lottery tickets.
+    </div>
+    <div class="unreadable">
+      You are difficult to read. You may be a witch/wizard.
+    </div>
+  </div>
+</body>
+</html>
